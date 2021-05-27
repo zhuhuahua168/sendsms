@@ -45,7 +45,7 @@ def job_func():
     print("job1当前时间1：", datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f"))
 
 def job_2():
-    print("job2当前时间2：", datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f"))
+    print("job2当前时间22：", datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S.%f"))
 if __name__ == '__main__':
     scheduler.add_job(job_func, 'interval', minutes=5, start_date='2021-05-26 17:00:00', end_date='2021-05-26 18:00:00')
     scheduler.add_job(job_2, 'interval', minutes=6, start_date='2021-05-26 17:00:00', end_date='2021-05-26 18:00:00')

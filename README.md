@@ -5,6 +5,7 @@
 [![Monthly Downloads](https://img.shields.io/npm/dm/appium.svg)](https://npmjs.org/package/appium)
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fappium%2Fappium.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fappium%2Fappium?ref=badge_shield)
+
 发送短信探测短信接口是否正常
 2种方案：
 1.通过获取手机截图进行图片识别转成文字判断是否有对应短信的关键字
